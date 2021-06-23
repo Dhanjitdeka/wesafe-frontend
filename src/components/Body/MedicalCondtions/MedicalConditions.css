@@ -1,0 +1,35 @@
+.medicalConditions {
+  text-align: center;
+}
+.medicalConditions__title {
+  color: #6673b6;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+.medicalConditions__card {
+  background: white;
+  width: 320px;
+  height: 50px;
+  border-radius: 8px;
+  margin: auto;
+}
+.medicalConditions__card p {
+  color: #878787;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: left;
+  padding-left: 30px;
+
+  font-size: 12px;
+  font-weight: 500;
+}
+.medicalConditions__card hr {
+  width: 80%;
+  margin: auto;
+  background: #dfdfdf;
+  height: 1px;
+  border: none;
+}
+.medicalConditions__cardNote {
+  padding-bottom: 10px;
+}

@@ -1,0 +1,55 @@
+.header {
+  background-color: #6673b6;
+  width: 100%;
+  min-height: 150px;
+  border: #6673b6 solid 1px;
+}
+
+.header__top {
+  /* border: red solid 1px; */
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.header__top h4 {
+  color: white;
+  font-weight: 400;
+}
+.header__button {
+  padding: 6px;
+  width: 100px;
+  background-color: transparent;
+  border-radius: 10px;
+  border: white 0.1px;
+  border-style: solid;
+  color: white;
+}
+.header__button p {
+  font-size: small;
+}
+/* header bottom */
+.header__bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.header__avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+
+  background-color: white;
+}
+.header__avatarTitle {
+  padding-top: 5px;
+  color: white;
+  font-weight: 300;
+}
+.header__avatarInfo {
+  color: white;
+  font-size: 12px;
+  font-weight: 100;
+}

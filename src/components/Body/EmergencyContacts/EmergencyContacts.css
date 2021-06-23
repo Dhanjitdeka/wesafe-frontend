@@ -1,0 +1,84 @@
+.emergencyContacts {
+  text-align: center;
+}
+.emergencyContacts__title {
+  color: #6673b6;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+.emergencyContacts__card {
+  background: white;
+  width: 320px;
+  height: 50px;
+  border-radius: 8px;
+  margin: auto;
+
+  /* position: relative; */
+}
+.emergencyContacts__cardInfo {
+  position: relative;
+}
+.emergencyContacts__card p {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: left;
+  padding-left: 30px;
+  color: #878787;
+  font-size: 12px;
+  font-weight: 500;
+}
+.emergencyContacts__card hr {
+  width: 80%;
+  margin: auto;
+  background: #dfdfdf;
+  height: 1px;
+  border: none;
+}
+.emergencyContacts__card img {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  right: 5%;
+  bottom: -35%;
+}
+
+@media only screen and (min-width: 440px) {
+  .emergencyContacts__card {
+    width: 75%;
+    height: 70px;
+  }
+  .emergencyContacts__card p {
+    padding-top: 10px;
+  }
+  .emergencyContacts__card hr {
+    margin-top: 5px;
+  }
+  .emergencyContacts__card img {
+    bottom: -25%;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .emergencyContacts__card {
+    width: 75%;
+    height: 80px;
+  }
+  .emergencyContacts__card p {
+    padding-left: 40px;
+  }
+}
+@media only screen and (min-width: 760px) {
+  .emergencyContacts__card {
+    width: 75%;
+    height: 90px;
+  }
+  .emergencyContacts__card p {
+    padding-left: 50px;
+  }
+  .emergencyContacts__card img {
+    width: 25px;
+    height: 25px;
+  }
+  .emergencyContacts__card hr {
+    margin-top: 10px;
+  }
+}
